@@ -1,0 +1,31 @@
+<div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+	        <img src="assets/sai.jpg" alt="..." class="img-thumbnail image">
+			<h2 style="text-align: center;font-weight: bold;color: #dddd;">Admin Login</h2>
+		    <p style="text-align: center;font-weight: bold;color: #ccc;">Please enter your Username and Password</p>
+	        <div >
+	            <form class="form-signin col-lg-4 col-md-4 col-sm-12 col-xs-12">
+	                <input type="email" id="userName" class="form-control" placeholder=" Username" style="height: 40px; font-size: 30px;" required autofocus><br>
+	                <input type="password" id="password" class="form-control" placeholder=" Password" style="height: 40px;font-size: 30px;" required><br>
+	                <a href="#" class="forgot-password" style="font-size: 23px;color: #000066;">
+	                Forgot Password?
+	                </a>
+	                <button class="btn btn-primary btn-block btn-signin col-lg-12 col-md-12 col-sm-12 col-xs-12 button" type="submit" onclick="logIn();" id="button" style="height: 40px;"> Login</button>   
+	            </form>   
+	        </div>
+	    </div>
+		<script type="text/javascript" src="js/login.js">
+			function logIn(){
+	
+	var userName = document.getElementById('userName').value;
+	var password = document.getElementById('password').value;
+
+    if(userName=="saitirumala"||"Saitirumala"&&password=="sai999888"){
+	    alert ("Login successfully..");
+	 location.replace("https://www.google.com/");
+	}else if(userName == '' && password== ''){
+		alert ("please fill user name and password");
+	}else {
+		alert("error in login details..");
+	}
+}
+		</script>

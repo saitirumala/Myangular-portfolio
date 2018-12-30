@@ -1,0 +1,40 @@
+.container{
+	background-color: silver;
+	border:20px solid black;
+}
+.container1{
+	background-color: white;
+	border-radius: 2%;
+}
+h1{
+	color: black;
+	font-family:Georgia;
+}
+h2{
+	color: green;
+	font-family:Georgia;
+}
+h3{
+	color: blue;
+	font-family:Georgia;
+}
+.experience{
+	color: red;
+	font-family:Georgia;
+
+}
+@media screen and (min-width: 1200px){
+	.experence{
+		color: red;
+		margin-top: 100px;
+		font-family:Georgia;
+	
+	}
+}
+
+button {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #1a237e;
+	color: white;
+}

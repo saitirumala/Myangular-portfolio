@@ -1,0 +1,45 @@
+.container{
+	background-color: silver;
+	border:20px solid black;
+	border-radius: 10px;
+}
+h1{
+	color: red;
+	font-family:Georgia;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	font-size:30px;
+}
+h3{
+	font-family:Georgia;
+}
+.SideHeading{
+	color: green;
+	font-family:Georgia;
+}
+h2{
+	color: black;
+	font-family:Georgia;
+}
+.mailSymbol{
+	height: 20px;
+	width: 20px;
+}
+.github-logo{
+	height: 50px;
+	width: 90px;
+}
+.phone-logo{
+	height: 30px;
+	width: 30px;
+}
+@media screen and (min-width: 1200px){
+	h1{
+	color: red;
+	font-family:Georgia;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	}
+}

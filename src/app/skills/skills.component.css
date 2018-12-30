@@ -1,0 +1,22 @@
+.container{
+	background-color: silver;
+	border:20px solid black;
+}
+h1{
+	color: black;
+	font-family:Georgia;
+}
+.skills{
+	color: red;
+	font-family:Georgia;
+
+}
+@media screen and (min-width: 1200px){
+	.skills{
+		color: red;
+		margin-top: 100px;
+		font-family:Georgia;
+	
+	}
+}
+
