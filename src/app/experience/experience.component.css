@@ -7,19 +7,22 @@
 	border-radius: 2%;
 }
 h1{
-	color: black;
+	color: #ff0055;
 	font-family:Georgia;
+	background-color: black;
+	width: 300px;
+	border-radius: 7px;
 }
 h2{
-	color: green;
+	color: #3F729B;
 	font-family:Georgia;
 }
 h3{
-	color: blue;
+	color: #00695c ;
 	font-family:Georgia;
 }
 .experience{
-	color: red;
+	color: green;
 	font-family:Georgia;
 
 }
@@ -31,10 +34,17 @@ h3{
 	
 	}
 }
+img{
+	height: 100px;
+	width: 100px;
+}
 
 button {
 	margin-bottom: 20px;
 	border-radius: 10px;
 	background-color: #1a237e;
 	color: white;
+}
+.Details{
+	background-color: white;
 }

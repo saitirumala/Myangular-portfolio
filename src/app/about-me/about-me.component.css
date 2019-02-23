@@ -1,6 +1,8 @@
 .container{
 	background-color: silver;
-	border:20px solid black;
+	border:20px solid silver;
+	border-radius: 5px;
+	margin-top: 10px;
 }
 .container1{}
 h1{
